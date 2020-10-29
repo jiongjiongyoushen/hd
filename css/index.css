@@ -1,0 +1,284 @@
+#outer{
+    padding:0;
+}
+.outerMax{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 1.361rem;
+    background-color: #164516;
+    display: flex;
+    align-items: center;
+    padding: 0 0.319rem;
+    justify-content: space-between;
+    margin-bottom: 0.153rem;
+    z-index: 99999;
+}
+.poscontent{
+    margin-top: 1.514rem ;
+}
+.headerleft{
+    width: 3.694rem;
+    height: 0.622rem;
+    background: url("../img/logo.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.headerright{
+    width: 2.194rem;
+    height: 0.403rem;
+    background: url("../img/logotxt.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner{
+   height: 5.236rem;
+    background: url("../img/banner.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.bannertxt{
+    height: 0.7222rem;
+    line-height: 0.7222rem;
+    font-size: 0.333rem;
+    text-align: center;
+    color: #164516;
+    margin-bottom: 0.153rem;
+    font-weight: bold;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 5.972rem;
+}
+.swiper-container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.swiper-container{
+    --swiper-theme-color: #ff6600;
+    --swiper-pagination-color: #fff;/* 两种都可以 */
+}
+.swiper-pagination-bullet {
+    width: 0.694rem;
+    height: 0.138rem;
+    margin-right: 0.305rem !important;
+    border-radius: initial;
+}
+.swiper-pagination {
+    padding-bottom: 0.35rem;
+    text-align: right;
+}
+
+.swiperOuterImg{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.swiperOuterImg p{
+    font-size: 0.3rem;
+    font-weight: bold;
+    line-height: 0.45rem;
+    width: 8.5rem;
+    color: #fff;
+    position: absolute;
+    top:4.2rem;
+    left: 0.458rem;
+
+}
+.swiperOuterImg span{
+    position: absolute;
+    left: 0.458rem;
+    top:5.2rem;
+    display: inline-block;
+    color: #fff;
+    width: 1.857rem;
+    text-align: center;
+     border-radius: 0.07rem;
+    border: 1px solid #fff;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-weight: bold;
+    z-index: 99;
+}
+.swiper-container{
+    z-index: 999;
+}
+.tab{
+    height: 1.155rem;
+    display: flex;
+    padding-top: 0.35rem;
+    box-sizing: border-box;
+    color: #164516;
+    font-size: 0.33rem;
+    font-weight: bold;
+    justify-content: center;
+    border-bottom: 1px solid #164516;
+}
+.tabitem{
+    padding: 0 0.208rem;
+
+}
+.tabitem p {
+    margin: 0.138rem auto 0;
+    width: 0.625rem;
+    height: 0.111rem;
+    background: #fff;
+}
+.active p{
+    background: #164516;
+}
+.content{
+    /*max-height: 17rem;
+    overflow-y: auto;
+    padding-bottom: 0.416rem;
+    border-bottom:1px solid #164516 ;*/
+}
+.contentitem{
+    display: flex;
+    padding-top: 0.416rem;
+    align-items: center;
+}
+.contimg{
+    width: 3.888rem;
+    height: 2.126rem;
+    flex-shrink:0;
+    margin-right: 0.277rem;
+}
+
+.contenttxt{
+    display: inline-block;
+    text-align: left;
+    line-height: 0.35rem;
+}
+.contheader{
+    color:  #164516;
+    font-weight: bold;
+}
+.contmid{
+    margin-top: 0.0694rem;
+    color: #888;
+    height: 1.05rem;
+    overflow: hidden;
+    font-size: 0.222rem;
+    line-height: 0.37rem;
+    overflow: hidden;
+}
+.contbtn{
+    width: 1.902rem;
+    height: 0.5rem;
+    background: #164516;
+    line-height: 0.5rem;
+    color: #ffffff;
+    margin-top: 0.0694rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0.0694rem;
+}
+.bottom{
+    height: 1.2rem;
+    background:#164516 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.416rem;
+    align-items: center;
+    margin-top: 0.416rem;
+    color: #fff;
+    font-size: 0.277rem;
+    line-height: 0.35rem;
+    text-align: right;
+}
+.ewm{
+    /*width: 0.597rem;
+    height: 0.583rem;
+    background: url("../img/ewm.png") no-repeat;
+    background-size: 100% 100%;*/
+}
+
+.contimg1{
+    background: url("../img/3.png") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg2{
+    background: url("../img/5.png") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg3{
+    background: url("../img/6.png") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg4{
+    background: url("../img/7.png") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg5{
+    background: url("../img/9.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg6{
+     background: url("../img/4.png") no-repeat;
+     background-size: 100% 100%;
+ }
+.contimg7{
+    background: url("../img/1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg8{
+    background: url("../img/2.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg9{
+    background: url("../img/3.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg10{
+    background: url("../img/4.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimg11{
+    background: url("../img/5.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk1{
+    background: url("../img/k1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk2{
+    background: url("../img/k2.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk3{
+    background: url("../img/k3.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk4{
+    background: url("../img/k4.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk5{
+    background: url("../img/k5.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk6{
+    background: url("../img/k6.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk7{
+    background: url("../img/k7.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk8{
+    background: url("../img/k8.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.contimgk9{
+     background: url("../img/k9.jpg") no-repeat;
+     background-size: 100% 100%;
+ }
